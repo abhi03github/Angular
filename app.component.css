@@ -1,0 +1,29 @@
+#nav.a.hover{
+    background-color: chocolate;
+
+}
+span{
+    color: darkgoldenrod;
+    font-style: italic;
+
+    
+}
+b{
+    font-size: 30px;
+}
+li,a{
+    font-size: 23px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    gap: 3px;
+
+}
+.dropdown-item{
+    background-color: cadetblue;
+    padding: 8px;
+}
+.dropdown-item:hover{
+    font-size: 24px;
+}
+ul{
+    margin-right: 10px;
+}

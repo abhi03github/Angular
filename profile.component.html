@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="card p-3">
+    <h1>Profiles Of users</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Mobile</th>
+          <th>Password</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let userData of user_records">
+          <td>{{ userData.name }}</td>
+          <td>{{ userData.email }}</td>
+          <td>{{ userData.mobile }}</td>
+          <td>{{ userData.password }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
